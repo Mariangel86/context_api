@@ -1,6 +1,7 @@
 import React from "react";
 import posts from "../data/posts";
 import { NavLink } from "react-router-dom";
+import Controls from "./Controls";
 
 const Blog = () => {
     return (
@@ -13,6 +14,7 @@ const Blog = () => {
                 })}
               
               </ul>
+              <Controls/>
               </div>
     );
     
